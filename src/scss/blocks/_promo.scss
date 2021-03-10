@@ -1,9 +1,24 @@
 
 .promo{
-    height: 100vh;
+    padding-top: 25px;
     background: url('../img/bgc.jpg') center (center / cover) no-repeat;
     &__wrapper{
+        height: 950px;
         display: flex;
         justify-content: space-between;
+    }
+    &__links{
+        width: 321px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link{
+        color: #fff;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+        text-decoration: none;
     }
 }
