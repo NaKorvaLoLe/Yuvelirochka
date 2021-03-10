@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACCA,AAAA,MAAM,AAAA,CACF,MAAM,CAAE,KAAK,CACb,UAAU,CAAE,wBAAwB,CAAC,MAAM,CAAC,SAAS,CACxD",
+    "sources": [
+        "../scss/style.scss",
+        "../scss/blocks/promo.scss"
+    ],
+    "names": [],
+    "file": "style.min.css"
+}
