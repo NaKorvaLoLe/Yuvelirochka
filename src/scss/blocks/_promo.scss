@@ -1,8 +1,9 @@
 
 .promo{
-    position: relative;
-    margin: 0;
-    padding: 0;
     height: 100vh;
-    background: url('../img/bgc.jpg') center (center/cover) no-repeat;
+    background: url('../img/bgc.jpg') center (center / cover) no-repeat;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
 }

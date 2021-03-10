@@ -1,1 +1,1 @@
-.promo{position:relative;margin:0;padding:0;height:100vh;background:url("../img/bgc.jpg") center center/cover no-repeat}
+body{margin:0}.container{width:1110px;margin:0 auto}.promo{height:100vh;background:url("../img/bgc.jpg") center center/cover no-repeat}.promo__wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
