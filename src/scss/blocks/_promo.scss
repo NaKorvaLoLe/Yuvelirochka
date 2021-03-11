@@ -2,8 +2,18 @@
 .promo{
     padding-top: 25px;
     background: url('../img/bgc.jpg') center (center / cover) no-repeat;
+    h1{
+        display: block;
+        margin-top: 300px;
+        text-align: center;
+        font-family: 'Noto Serif';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 49px;
+        color: #fff;
+    }
     &__wrapper{
-        height: 950px;
         display: flex;
         justify-content: space-between;
     }
