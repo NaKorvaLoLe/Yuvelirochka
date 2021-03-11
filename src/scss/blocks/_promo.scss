@@ -8,17 +8,45 @@
         justify-content: space-between;
     }
     &__links{
+        padding-top: 18px;
         width: 321px;
         display: flex;
         justify-content: space-between;
     }
     &__link{
         color: #fff;
-        font-family: 'Gilroy';
+        font-family: 'Gilroy' , sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
         line-height: 150%;
         text-decoration: none;
     }
+    &__panel{
+        padding-top: 18px;
+        width: 375px;
+        a{
+            font-family: 'Gilroy' , sans-serif;
+            font-size: 14px;
+            line-height: 150%;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    &__search{
+        margin-left: 0;
+    }
+    &__text{
+        margin-left: 16px;
+    }
+    &__logout{
+        margin-left: 40px;
+    }
+    &__profile{
+        margin-left: 44px;
+    }
+    &__heart{
+        margin-left: 16px;
+    }
+
 }
