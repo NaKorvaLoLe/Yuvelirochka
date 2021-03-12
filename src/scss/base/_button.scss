@@ -1,0 +1,33 @@
+.btn{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Gilroy' , sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid;
+    padding: 15px 35px;
+    transition: background 1s;
+   
+    &__dark{  
+         background: $main-color;
+        color: #fff;
+        &:hover{
+            color: $main-color;
+            background: #fff;  
+        }
+    }
+    &__dark{  
+        background: #fff;
+       color: $main-color;
+       &:hover{
+           color: #fff;
+           background: $main-color; 
+           border: #fff; 
+       }
+   }
+}

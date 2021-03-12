@@ -1,0 +1,18 @@
+.salons{
+    padding: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 115px;
+    background: url('../img/salonsBackground.jpg') center (center / cover) no-repeat;
+    &__text{
+        margin: 0 auto;
+        padding-top: 45px;
+        width: 730px;
+        font-family: 'Gilroy', sans-serif ;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        text-align: center;
+        color: #fff;
+    }
+}
