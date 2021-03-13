@@ -9,25 +9,27 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     text-decoration: none;
-    border: 2px solid;
     padding: 15px 35px;
     transition: background 1s;
-   
+
     &__dark{  
-         background: $main-color;
+        background-color: $main-color;
         color: #fff;
+        border: 1px solid #fff;
         &:hover{
             color: $main-color;
             background: #fff;  
+            border: 1px solid $main-color;
         }
     }
-    &__dark{  
-        background: #fff;
+    &__white{  
+       background: #fff;
        color: $main-color;
+       border: 1px solid $main-color;
        &:hover{
            color: #fff;
            background: $main-color; 
-           border: #fff; 
+           border: 1px solid #fff;
        }
    }
 }
