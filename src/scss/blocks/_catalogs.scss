@@ -25,17 +25,26 @@
         letter-spacing: 0.1em;
         text-transform: uppercase;
         cursor: pointer;
+        transition: background 1s;
         &_active{
             background: $main-color;
             color: #fff;
+            &:hover{
+                color: #fff;
+                border: 1px solid $main-color;
+            }
         }
+        
     }
     &__content{
-        padding-top: 55px;
-        display: grid;
-        grid-template: repeat(2, 280px) / repeat(3, 350px);
-        grid-auto-rows: 280px;
-        gap: 30px;
+        display: none;
+        &_active{
+            display: grid;
+            padding-top: 55px;
+            grid-template: repeat(2, 280px) / repeat(3, 350px);
+            grid-auto-rows: 280px;
+            gap: 30px;
+        }
         &__link{
             position: relative;
             &__text{

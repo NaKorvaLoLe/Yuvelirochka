@@ -1,0 +1,119 @@
+.footer{
+    height: 395px;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 80px;
+        div{
+            width: 255px;
+        }   
+    }&__text{
+        margin: 0;
+        font-family: 'Gilroy' , sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: $main-color;
+        &:after{
+            content: '';
+            display: block;
+            height: 1px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            background: $main-color;
+        }
+    }
+    &__links{ 
+        text-align: left;
+        a{
+            display: block;
+            font-family: 'Gilroy' , sans-serif;
+            font-size: 14px;
+            line-height: 150%;
+            color: $main-color;
+            text-decoration: none;
+            padding-bottom: 15px;
+            &:last-child{
+                padding: 0;
+            }
+        }
+    }
+    &__pay{
+        text-align: left;
+        &__descr{
+            margin: 0;
+            display: block;
+            font-family: 'Gilroy' , sans-serif;
+            font-size: 14px;
+            line-height: 150%;
+            color: $main-color;
+            text-decoration: none;
+            padding-bottom: 21px;
+        }
+    }&__cards{
+        img{
+            margin-right: 20px;
+        }
+    }
+    &__contacts{
+        text-align: left;
+        a{
+            display: block;
+            font-family: 'Gilroy' , sans-serif;
+            font-size: 14px;
+            line-height: 150%;
+            color: $main-color;
+            text-decoration: none;
+            padding-bottom: 15px;
+            &:last-child{
+                padding: 0;
+            }
+        }
+    }
+    &__network{
+        text-align: left;
+        &__descr{
+            margin: 0;
+            display: block;
+            font-family: 'Gilroy' , sans-serif;
+            font-size: 14px;
+            line-height: 150%;
+            color: $main-color;
+            text-decoration: none;
+            padding-bottom: 27px; 
+        }
+        a{
+            padding-right: 25px;
+        }
+    }
+    &__end{
+        margin-bottom: 20px;
+        &__wrapper{
+            display: flex;
+            justify-content: space-between;
+            a{
+                font-family: 'Gilroy' , sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 150%;
+                color: $main-color;
+                text-decoration: none;
+                &:last-child{
+                    text-decoration-line: underline;
+                    text-decoration-color: #a9a6a6;
+                }
+            }
+        }
+        &:before{
+            display: block;
+            content: "";
+            height: 1px;
+            margin-top: 60px;
+            margin-bottom: 20px;
+            background: $main-color;
+        }   
+    }
+}

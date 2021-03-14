@@ -1,0 +1,11 @@
+.products{
+    padding-top: 100px;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__brend{
+        display: block;
+        width: 160px;
+    }
+}

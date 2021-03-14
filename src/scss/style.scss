@@ -10,6 +10,7 @@
 
 body{
     margin: 0;
+    padding: 0;
 }
 .container{
     width: 1110px;
@@ -23,3 +24,5 @@ body{
 @import 'blocks/blog';
 @import 'blocks/social';
 @import 'blocks/exclusive';
+@import 'blocks/footer';
+@import 'blocks/header';

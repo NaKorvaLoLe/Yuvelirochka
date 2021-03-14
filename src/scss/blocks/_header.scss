@@ -1,20 +1,8 @@
 
-.promo{
-    background: url('../img/bgc.jpg') center (center / cover) no-repeat;
-    height: 950px;
+.header{
     position: relative;
-    h1{
-        margin-bottom: 0;
-        display: block;
-        margin-top: 520px;
-        text-align: center;
-        font-family: 'Noto Serif';
-        letter-spacing: 0.1em;
-        font-weight: bold;
-        font-size: 36px;
-        line-height: 49px;
-        color: #fff;
-    }
+    background-color: $main-color;
+    height: 111px;
     &__hamburger{
         display: none;
         position: absolute;
@@ -41,13 +29,7 @@
         display: flex;
         justify-content: space-between;
     }
-    &:after{
-        content: "";
-        margin-top: 80px;
-        display: block;
-        background: #fff;
-        height: 1px;
-    }
+    
     &__links{
         padding-top: 18px;
         width: 321px;
@@ -89,24 +71,6 @@
     &__heart{
         margin-left: 16px;
     }  
-    &__brands{
-        position: absolute;
-        bottom: 30px;
-        left: 50%;
-        transform: translateX(-50%);
-        display: flex;
-        justify-content: space-between;
-        img{
-            padding: 0 15px;
-            border-right: 1px solid #fff;
-            &:first-child{
-                padding-left: 0;
-            }
-            &:last-child{
-                border: none;
-                padding-right: 0;
-            }
-        }
-    }
+    
 }
 
