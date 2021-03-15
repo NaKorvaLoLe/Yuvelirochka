@@ -1,11 +1,30 @@
 .products{
     padding-top: 100px;
     &__wrapper{
+        padding: 0;
+        padding-top: 60px;
         display: flex;
         justify-content: space-between;
+        list-style: none;
+    }
+    &__filter{
+        width: 160px; 
+        padding-bottom: 10px;
+        border-bottom: 1px solid #D6D6D6;
+        list-style-type: none;
+        box-sizing: border-box;
+        font-family: 'Gilroy', sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: left;
+        letter-spacing: 0.1em;
+        cursor: pointer;
     }
     &__brend{
-        display: block;
         width: 160px;
+    }
+    &__subbrend{
+        display: none;
     }
 }
