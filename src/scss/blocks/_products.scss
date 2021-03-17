@@ -33,18 +33,25 @@
         margin: 0 35px;
         padding: 0;
         padding-top: 95px;
-        padding-bottom: 95px;
-        display: grid;
-        grid-template: repeat(1 , 370px) / repeat(3 , 280px);
-        gap: 100px;
-        &:after{
-            content: '';
-            display: block;
-            height: 1px;
-            width: 100%;
-            background-color:#d6d6d6;
-
+        padding-bottom: 15px;
+        min-height: 1350px;
+        &__wrapper{
+            display: none;
         }
+        &__active {
+            margin-bottom: 105px;
+            display: grid;
+            grid-template: repeat(1 , 370px) / repeat(3 , 280px);
+            gap: 100px;
+            padding-bottom: 100px;
+            border-bottom: 1px solid #d6d6d6;
+            &:last-child{
+                margin: 0;
+                padding: 0;
+                border-bottom: none;
+            }
+        }
+        
         &-item{
           widows: 280px;
           height: 370px;  
