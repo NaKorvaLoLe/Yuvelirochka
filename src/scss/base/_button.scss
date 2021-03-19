@@ -11,6 +11,7 @@
     text-decoration: none;
     padding: 15px 35px;
     transition: background 1s;
+    outline: none;
 
     &__dark{  
         background-color: $main-color;
